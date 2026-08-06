@@ -7,7 +7,7 @@ const translations = {
     'hero.eyebrow': 'Premium Portfolio • Digital Creator',
     'hero.title': 'I craft beautiful digital experiences with purpose and precision.',
     'hero.text': 'I am Nayem Mia, a designer and developer focused on premium web experiences, thoughtful branding, and user-centered products.',
-    'hero.contact': 'Let’s Connect',
+    'hero.contact': 'Let's Connect',
     'hero.resume': 'Download Resume',
     'hero.visitors': 'Visitors',
     'hero.clock': 'Live Time',
@@ -38,7 +38,7 @@ const translations = {
     'help.attachment': 'Attachment Upload',
     'help.submit': 'Send Request',
     'contact.eyebrow': 'Contact',
-    'contact.title': 'Let’s build something memorable together.',
+    'contact.title': 'Let's build something memorable together.',
     'contact.quickTitle': 'Quick Contact',
     'contact.mapTitle': 'Location',
     'contact.mapText': 'Based in Bangladesh and available for remote collaborations worldwide.',
@@ -54,7 +54,7 @@ const translations = {
     'nav.contact': 'যোগাযোগ',
     'hero.eyebrow': 'প্রিমিয়াম পোর্টফোলিও • ডিজিটাল ক্রিয়েটর',
     'hero.title': 'আমি উদ্দেশ্য ও নির্ভুলতার সাথে সুন্দর ডিজিটাল অভিজ্ঞতা তৈরি করি।',
-    'hero.text': 'আমি নাঈম মিয়া, একজন ডিজাইনার ও ডেভেলপার, যিনি প্রিমিয়াম ওয়েব অভিজ্ঞতা, চিন্তাশীল ব্র্যান্ডিং এবং ব্যবহারকারী-কেন্দ্রিক পণ্য তৈরি করি।',
+    'hero.text': 'আমি নাঈম মিয়া, একজন ডিজাইনার ও ডেভেলপার, যিনি প্রিমিয়াম ওয়েব অভি[...]',
     'hero.contact': 'যোগাযোগ করুন',
     'hero.resume': 'রিজিউমি ডাউনলোড',
     'hero.visitors': 'পরিদর্শক',
@@ -62,7 +62,7 @@ const translations = {
     'about.eyebrow': 'আমার সম্পর্কে',
     'about.title': 'সৌন্দর্য, কৌশল এবং ডেভেলপমেন্ট একত্রে।',
     'about.storyTitle': 'আমার গল্প',
-    'about.storyText': 'আমি আধুনিক ওয়েবসাইট তৈরি করি যা প্রিমিয়াম, দ্রুত এবং প্রতিটি স্ক্রিনে স্বজ্ঞাত অনুভব করে।',
+    'about.storyText': 'আমি আধুনিক ওয়েবসাইট তৈরি করি যা প্রিমিয়াম, দ্রুত এবং প্রতিটি স[...]',
     'about.infoTitle': 'ব্যক্তিগত তথ্য',
     'about.name': 'নাম',
     'about.role': 'পেশা',
@@ -70,11 +70,11 @@ const translations = {
     'about.skillsTitle': 'মূল দক্ষতা',
     'about.timelineTitle': 'অভিজ্ঞতার সময়রেখা',
     'about.timelineOne': 'ইন্টার‍্যাকটিভ ডিজাইন সিস্টেম তৈরির শুরু করেছিলাম।',
-    'about.timelineTwo': 'আধুনিক ব্র্যান্ডের জন্য প্রিমিয়াম ওয়েব অভিজ্ঞতা তৈরি করেছি।',
+    'about.timelineTwo': 'আধুনিক ব্র্যান্ডের জন্য প্রিমিয়াম ওয়েব অভিজ্ঞতা তৈরি করেছি।[...]',
     'help.eyebrow': 'সাহায্য কেন্দ্র',
     'help.title': 'প্রিমিয়াম সাপোর্ট আবেদন ফর্ম।',
     'help.cardTitle': 'বিশেষজ্ঞ সহায়তা প্রয়োজন?',
-    'help.cardText': 'আপনার প্রয়োজন শেয়ার করুন, আমি আপনার প্রকল্পের জন্য উপযুক্ত সমাধান দেব।',
+    'help.cardText': 'আপনার প্রয়োজন শেয়ার করুন, আমি আপনার প্রকল্পের জন্য উপযুক্ত সমা[...]',
     'help.listOne': 'দ্রুত প্রতিক্রিয়া',
     'help.listTwo': 'কাস্টম কৌশল',
     'help.listThree': 'মোবাইল-ফার্স্ট বাস্তবায়ন',
@@ -89,11 +89,11 @@ const translations = {
     'contact.title': 'চলুন একসাথে কিছু স্মরণীয় তৈরি করি।',
     'contact.quickTitle': 'দ্রুত যোগাযোগ',
     'contact.mapTitle': 'অবস্থান',
-    'contact.mapText': 'বাংলাদেশে অবস্থান করে বিশ্বব্যাপী রিমোট সহযোগিতার জন্য উপলব্ধ।',
+    'contact.mapText': 'বাংলাদেশে অবস্থান করে বিশ্বব্যাপী রিমোট সহযোগিতার জন্য উপলব্ধ।[...]',
     'notif.title': 'নোটিফিকেশন',
     'notif.one': 'নতুন পোর্টফোলিও অভিজ্ঞতা চালু হয়েছে।',
     'notif.two': 'ডার্ক মোড ও ভাষা পরিবর্তন প্রস্তুত।',
-    'notif.three': 'PWA সমর্থন ইনস্টলযোগ্য ব্রাউজিংয়ের জন্য প্রস্তুত।',
+    'notif.three': 'PWA সমর্থন ইনস্টলযোগ্য ব্রাউজিংয়ের জন্য প্রস্তুত।',
   },
   tr: {
     'nav.home': 'Ana Sayfa',
@@ -163,10 +163,12 @@ const adminUnlockBtn = document.getElementById('adminUnlockBtn');
 const adminLockStatus = document.getElementById('adminLockStatus');
 const liveClock = document.getElementById('liveClock');
 const year = document.getElementById('year');
+const dynamicIsland = document.querySelector('.dynamic-island');
 
 let currentLang = localStorage.getItem('portfolio-lang') || 'en';
 let currentTheme = localStorage.getItem('portfolio-theme') || 'dark';
 let pendingProfileImage = null;
+let lastScrollTop = 0;
 
 const defaultProfile = {
   displayName: 'Nayem Mia',
@@ -183,6 +185,26 @@ const defaultProfile = {
   github: 'https://github.com',
   instagram: 'https://www.instagram.com',
 };
+
+// Header auto-hide on scroll
+window.addEventListener('scroll', () => {
+  const currentScroll = window.scrollY;
+  
+  if (currentScroll > 100) {
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down - hide header
+      dynamicIsland.classList.add('hidden-header');
+    } else {
+      // Scrolling up - show header
+      dynamicIsland.classList.remove('hidden-header');
+    }
+  } else {
+    // Near top - always show
+    dynamicIsland.classList.remove('hidden-header');
+  }
+  
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
 
 function setLanguage(lang) {
   currentLang = lang;
