@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center | Nayem Mia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="aurora-bg"></div>
+    <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 dynamic-island px-8 py-4 flex gap-8 items-center">
+        <a href="index.html" class="text-white hover:text-[#00F0FF] transition font-semibold">Home</a>
+        <a href="about.html" class="text-white hover:text-[#00F0FF] transition font-semibold">About</a>
+        <a href="help.html" class="text-[#00F0FF] font-semibold">Help</a>
+        <a href="contact.html" class="text-white hover:text-[#00F0FF] transition font-semibold">Contact</a>
+    </nav>
+
+    <main class="pt-32 px-6 max-w-3xl mx-auto pb-20 hero-content">
+        <h1 class="text-4xl font-bold mb-8 text-center">Help Center</h1>
+        
+        <form id="help-form" class="glass-card p-8 flex flex-col gap-5">
+            <div class="grid grid-cols-2 gap-5">
+                <input type="text" id="name" placeholder="Full Name" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]">
+                <input type="email" id="email" placeholder="Email" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]">
+            </div>
+            <div class="grid grid-cols-2 gap-5">
+                <input type="tel" id="phone" placeholder="Phone Number" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]">
+                <input type="text" id="country" placeholder="Country" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]">
+            </div>
+            <input type="text" id="subject" placeholder="Subject" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]">
+            <textarea id="message" rows="5" placeholder="Message" required class="bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[#00F0FF]"></textarea>
+            
+            <button type="submit" class="btn-liquid w-full py-4 text-lg font-bold mt-4 text-white">Send Application</button>
+        </form>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
