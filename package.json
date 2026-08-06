@@ -1,0 +1,16 @@
+{
+  "name": "nayem-portfolio",
+  "version": "1.0.0",
+  "description": "Premium Portfolio Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["portfolio", "web", "design"],
+  "author": "Nayem Mia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
