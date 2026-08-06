@@ -46,7 +46,7 @@ body::before {
   content: "";
   position: fixed;
   inset: -20%;
-  background: radial-gradient(circle at 20% 20%, rgba(94, 231, 255, 0.2), transparent 30%), radial-gradient(circle at 80% 0%, rgba(109, 124, 255, 0.22), transparent 28%), radial-gradient(circle at 50% 100%, rgba(52, 211, 153, 0.15), transparent 25%);
+  background: radial-gradient(circle at 20% 20%, rgba(94, 231, 255, 0.2), transparent 30%), radial-gradient(circle at 80% 0%, rgba(109, 124, 255, 0.22), transparent 28%), radial-gradient(circle at[...]
   filter: blur(60px);
   z-index: -2;
 }
@@ -68,12 +68,19 @@ body::before {
 }
 
 .dynamic-island {
-  position: sticky;
+  position: fixed;
   top: 20px;
+  left: 0;
+  right: 0;
   z-index: 20;
   display: flex;
   justify-content: center;
   padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.dynamic-island.hidden-header {
+  transform: translateY(-150px);
 }
 
 .island-pill {
